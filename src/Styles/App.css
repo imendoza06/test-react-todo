@@ -1,0 +1,121 @@
+html, body {
+  height: 100%;
+  color: #61DAFB;
+  background: #2D2D2D;
+}
+
+.App {
+  text-align: center;
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-genius {
+  color: #61DAFB;
+}
+.App-plaza {
+  color: #f8bc2a;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+/*---------- Content style  ----------*/
+
+li,
+input,
+button {
+  font-size: 1.3em;
+}
+
+.todoList .todoForm{
+  position: relative;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.todoItem-btn {
+  background:  #f8bc2a;
+  font-size: 12px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  
+}
+
+.todoItem-btn:hover {
+  visibility: visible;
+  cursor: pointer;
+  color: #fc913a;
+  background: #1e1e1e;
+  
+} 
+.todoItem-check {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/*---------- List style ----------*/
+li {
+  padding: 0.5em 0;
+  list-style-type: none;
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: #f8bc2a;
+}
+
+ul {
+  padding-left: 1.5em;
+  list-style: none;
+}
+
+/* ---------- Input box and button guidelines ---------- */
+
+input[type="text"] {
+  margin-left: 1.2rem;
+  margin-right: 0.2rem;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+}
+
+button[type="submit"] {
+  background-color: lightblue;
+  cursor: pointer;
+  font-size: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+} 
+
+button[type="submit"]:hover {
+  background-color:  #f8bc2a;
+  color: #1e1e1e;
+} 
