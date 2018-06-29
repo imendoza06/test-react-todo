@@ -36,8 +36,8 @@ Follow these instructions to get a copy of the app running on local for developm
 ### Installation
 
 ```
-git clone https://github.com/imendoza06/test-react-todomvc.git
-cd test-react-todomvc
+git clone https://github.com/imendoza06/test-react-todo.git
+cd test-react-todo
 npm install
 npm start
 ```
